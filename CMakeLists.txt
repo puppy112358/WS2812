@@ -36,7 +36,7 @@ set(CMAKE_CXX_STANDARD 17)
 # 设置编译目标变量
 # set(PRJ_TARGET "wch_template")
 # 设置项目名称
-project(L103pro LANGUAGES C CXX ASM)
+project(WS2812 LANGUAGES C CXX ASM)
 # 设置项目根目录路径变量
 # set(PRJ_DIR "C:/UserTemp/wch_cmake_template")
 

@@ -1,0 +1,725 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "WS2812.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-march=rv32imacxw"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mabi=ilp32"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msmall-data-limit=8"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-msave-restore"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-lprintf"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Og"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Peripheral/inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Core"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Debug"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/User"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-march=rv32imacxw"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mabi=ilp32"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msmall-data-limit=8"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-msave-restore"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-lprintf"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "assembler-with-cpp"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Og"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Peripheral/inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Core"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/Debug"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "E:/wch/WS2812/User"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				23
+			]
+		}
+	],
+	"id" : "WS2812.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-march=rv32imac",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mabi=ilp32",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-ffunction-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fdata-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fmessage-length=0",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fstack-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wall",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wfatal-errors",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-check-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-fatal-warnings",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "E:/wch/WS2812/Ld/link.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-nostartfiles",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-Xlinker",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,-Map,E:/wch/WS2812/cmake-build-debug-riscv-none-embed-gcc/WS2812.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--cref",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "--specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-u_printf_float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-u_scanf_float",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "WS2812.elf",
+	"nameOnDisk" : "WS2812.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				23,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/core_riscv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Debug/debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_bkp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_dbgmcu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_iwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_lptim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_opa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripheral/src/ch32l103_wwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Startup/startup_ch32l103.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/PWM.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/TJCScreen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/ch32l103_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/ina226.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/system_ch32l103.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Ld/Link.ld",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,94 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/lib/gcc/riscv-none-embed/8.2.0/include",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/lib/gcc/riscv-none-embed/8.2.0/include-fixed",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/riscv-none-embed/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/riscv-none-embed/include/c++/8.2.0",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/riscv-none-embed/include/c++/8.2.0/riscv-none-embed/rv32imac/ilp32",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/riscv-none-embed/include/c++/8.2.0/backward",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/lib/gcc/riscv-none-embed/8.2.0/include",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/lib/gcc/riscv-none-embed/8.2.0/include-fixed",
+						"E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/riscv-none-embed/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-g++.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
