@@ -14,6 +14,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.0s)
+-- Configuring done (9.9s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/wch/WS2812/cmake-build-debug-riscv-none-embed-gcc
